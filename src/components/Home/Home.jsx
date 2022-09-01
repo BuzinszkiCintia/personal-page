@@ -1,4 +1,4 @@
-import profileImage from "../../images/profile.jpg";
+import profileImage from "../../images/IMG_1398.PNG";
 import navbarImg from "../../images/IMG_1395.PNG";
 import {
   NavbarImg,
