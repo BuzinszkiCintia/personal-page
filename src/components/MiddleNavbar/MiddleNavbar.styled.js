@@ -8,6 +8,10 @@ export const MinddleNavbarContainer = styled.div`
 `;
 export const PictureContainer = styled.div`
   position: relative;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 export const NavbarIMG = styled.img`
   width: 10rem;
