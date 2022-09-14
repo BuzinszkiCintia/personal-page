@@ -13,11 +13,6 @@ const Home = () => {
     <MainContainer>
       <Navbar>
         <h3>Cintia Buzinszki | Junior Frontend developer</h3>
-        <button class="material-icons md-36" id="material-menu">
-          <div class="material-icons md-36" id="material-menu">
-            menu
-          </div>
-        </button>
       </Navbar>
       <NavbarImg src={navbarImg} alt="navbar-img" />
       <IntroContainer>
