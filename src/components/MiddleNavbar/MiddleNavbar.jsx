@@ -3,6 +3,7 @@ import {
   PictureContainer,
   NavbarIMG,
   NavbarLabel,
+  MainContainer,
 } from "../MiddleNavbar/MiddleNavbar.styled";
 import navbarImg from "../../images/IMG_1396.PNG";
 
@@ -17,16 +18,18 @@ const MiddleNavbar = () => {
   ];
 
   return (
-    <MinddleNavbarContainer>
-      {navItems.map((item) => {
-        return (
-          <PictureContainer key={item}>
-            <NavbarLabel>{item}</NavbarLabel>
-            <NavbarIMG src={navbarImg} alt={item} />
-          </PictureContainer>
-        );
-      })}
-    </MinddleNavbarContainer>
+    <MainContainer>
+      <MinddleNavbarContainer>
+        {navItems.map((item) => {
+          return (
+            <PictureContainer key={item}>
+              <NavbarLabel>{item}</NavbarLabel>
+              <NavbarIMG src={navbarImg} alt={item} />
+            </PictureContainer>
+          );
+        })}
+      </MinddleNavbarContainer>
+    </MainContainer>
   );
 };
 

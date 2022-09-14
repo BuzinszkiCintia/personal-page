@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const MainContainer = styled.div`
+  width: 100%;
+  height: 100vh;
+`;
+
 export const MinddleNavbarContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -8,7 +13,7 @@ export const MinddleNavbarContainer = styled.div`
 `;
 export const PictureContainer = styled.div`
   position: relative;
-
+  //kell még hover effect esetleg az aljára valami svg
   &:hover {
     cursor: pointer;
   }
