@@ -1,18 +1,29 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.964fdded.css",
-    "main.js": "/personal-page/static/js/main.b2c44184.js",
+    "main.js": "/personal-page/static/js/main.ed71ae47.js",
     "static/js/787.c0841a6b.chunk.js": "/personal-page/static/js/787.c0841a6b.chunk.js",
+    "static/media/IMG_1399.PNG": "/personal-page/static/media/IMG_1399.5cb84459d10a18956aba.PNG",
+    "static/media/IMG_1398.PNG": "/personal-page/static/media/IMG_1398.d1952b1ae5ac74707d28.PNG",
     "static/media/IMG_1395.PNG": "/personal-page/static/media/IMG_1395.1a2fc8f8ea82459b260f.PNG",
     "static/media/IMG_1396.PNG": "/personal-page/static/media/IMG_1396.cfd6fb6d4a6618686378.PNG",
-    "static/media/profile.jpg": "/personal-page/static/media/profile.75a8f0e664e13fe743d3.jpg",
+    "static/media/IMG_1412.PNG": "/personal-page/static/media/IMG_1412.9a26300da8ebdb07cad0.PNG",
+    "static/media/IMG_1419.PNG": "/personal-page/static/media/IMG_1419.5b6ffbfbea25f10fb1aa.PNG",
+    "static/media/IMG_1414.PNG": "/personal-page/static/media/IMG_1414.c8e2e58ff146596bd82d.PNG",
+    "static/media/IMG_1415.PNG": "/personal-page/static/media/IMG_1415.bc722593f1022f493cc8.PNG",
+    "static/media/IMG_1413.PNG": "/personal-page/static/media/IMG_1413.cda43bd0c76b48fe44db.PNG",
+    "static/media/IMG_1417.PNG": "/personal-page/static/media/IMG_1417.c033a79b4c8df6d1715e.PNG",
+    "static/media/IMG_1416.PNG": "/personal-page/static/media/IMG_1416.b4e30ab9448c0c9a3e85.PNG",
+    "static/media/IMG_1418.PNG": "/personal-page/static/media/IMG_1418.f867975a95377942ef08.PNG",
+    "static/media/Budapest_bank_logo_png.png": "/personal-page/static/media/Budapest_bank_logo_png.efc5658307c15ecec1fe.png",
+    "static/media/bge_logo.jpg": "/personal-page/static/media/bge_logo.a6c9c5a8bda4f6f923a0.jpg",
     "index.html": "/personal-page/index.html",
     "main.964fdded.css.map": "/personal-page/static/css/main.964fdded.css.map",
-    "main.b2c44184.js.map": "/personal-page/static/js/main.b2c44184.js.map",
+    "main.ed71ae47.js.map": "/personal-page/static/js/main.ed71ae47.js.map",
     "787.c0841a6b.chunk.js.map": "/personal-page/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.b2c44184.js"
+    "static/js/main.ed71ae47.js"
   ]
 }
