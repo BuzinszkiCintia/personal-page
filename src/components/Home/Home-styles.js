@@ -33,11 +33,6 @@ export const Navbar = styled.div`
     font-family: "Roboto Condensed", sans-serif;
     letter-spacing: 0.1rem;
   }
-
-  #material-menu {
-    color: white;
-    font-size: 2rem;
-  }
 `;
 
 export const IntroContainer = styled.div`
