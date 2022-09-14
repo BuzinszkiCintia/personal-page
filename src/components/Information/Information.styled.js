@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const MainInfoContainer = styled.div`
   width: 100%;
   height: 100vh;
-
   h1 {
     font-family: "Courgette", cursive;
     color: rgba(43, 75, 71, 1);
@@ -11,6 +10,8 @@ export const MainInfoContainer = styled.div`
 `;
 
 export const TitleContainer = styled.div`
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   img {
     height: 4rem;
     width: 100%;
