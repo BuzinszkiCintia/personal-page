@@ -26,6 +26,7 @@ export const Grid = styled.div`
   @media only screen and (max-width: 480px) {
     width: 100%;
     margin: 0;
+    margin-bottom: 1rem;
   }
 
   .griditem-1 {

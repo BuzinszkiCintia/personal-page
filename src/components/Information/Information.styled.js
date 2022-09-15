@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainInfoContainer = styled.div`
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   h1 {
     font-family: "Courgette", cursive;
     color: rgba(43, 75, 71, 1);
