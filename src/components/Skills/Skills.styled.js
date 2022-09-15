@@ -58,6 +58,7 @@ export const ScrollingContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 0;
 
   :before {
     top: 0;
@@ -81,8 +82,8 @@ export const ScrollingContainer = styled.div`
   ul {
     margin: 0;
     padding: 0;
-    -webkit-animation: scrollUp 4s ease-in-out infinite normal;
-    animation: scrollUp 4s ease-in-out infinite normal;
+    -webkit-animation: scrollUp 5s ease-in-out infinite normal;
+    animation: scrollUp 5s ease-in-out infinite normal;
   }
   ul li {
     opacity: 1;
