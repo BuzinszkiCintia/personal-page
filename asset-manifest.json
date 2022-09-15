@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.964fdded.css",
-    "main.js": "/personal-page/static/js/main.91cb0e72.js",
+    "main.js": "/personal-page/static/js/main.2d88a49a.js",
     "static/js/787.c0841a6b.chunk.js": "/personal-page/static/js/787.c0841a6b.chunk.js",
     "static/media/IMG_1399.PNG": "/personal-page/static/media/IMG_1399.5cb84459d10a18956aba.PNG",
     "static/media/IMG_1398.PNG": "/personal-page/static/media/IMG_1398.d1952b1ae5ac74707d28.PNG",
@@ -19,11 +19,11 @@
     "static/media/bge_logo.jpg": "/personal-page/static/media/bge_logo.a6c9c5a8bda4f6f923a0.jpg",
     "index.html": "/personal-page/index.html",
     "main.964fdded.css.map": "/personal-page/static/css/main.964fdded.css.map",
-    "main.91cb0e72.js.map": "/personal-page/static/js/main.91cb0e72.js.map",
+    "main.2d88a49a.js.map": "/personal-page/static/js/main.2d88a49a.js.map",
     "787.c0841a6b.chunk.js.map": "/personal-page/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.91cb0e72.js"
+    "static/js/main.2d88a49a.js"
   ]
 }
