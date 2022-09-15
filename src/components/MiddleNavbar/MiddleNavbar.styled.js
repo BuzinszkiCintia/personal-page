@@ -13,9 +13,10 @@ export const MinddleNavbarContainer = styled.div`
 `;
 export const PictureContainer = styled.div`
   position: relative;
-  //kell még hover effect esetleg az aljára valami svg
   &:hover {
     cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.3em);
   }
 `;
 export const NavbarIMG = styled.img`

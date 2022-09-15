@@ -6,6 +6,7 @@ import {
   MainContainer,
 } from "../MiddleNavbar/MiddleNavbar.styled";
 import navbarImg from "../../images/IMG_1396.PNG";
+import { Link } from "react-scroll";
 
 const MiddleNavbar = () => {
   let navItems = [
@@ -14,17 +15,25 @@ const MiddleNavbar = () => {
     "Education",
     "Skills",
     "Projects",
-    "Other",
   ];
 
   return (
     <MainContainer>
       <MinddleNavbarContainer>
-        {navItems.map((item) => {
+        {navItems?.map((item) => {
           return (
-            <PictureContainer key={item}>
-              <NavbarLabel>{item}</NavbarLabel>
-              <NavbarIMG src={navbarImg} alt={item} />
+            <PictureContainer>
+              <Link
+                to={item}
+                spy={true}
+                smooth={true}
+                duration={500}
+                className={item}
+                activeClass={item}
+              >
+                <NavbarLabel> {item}</NavbarLabel>
+              </Link>
+              <NavbarIMG src={navbarImg} alt="information" />
             </PictureContainer>
           );
         })}
