@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   width: 100%;
   height: 100vh;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: 60vh;
+  }
 `;
 
 export const Navbar = styled.div`
@@ -33,6 +37,14 @@ export const Navbar = styled.div`
     font-family: "Roboto Condensed", sans-serif;
     letter-spacing: 0.1rem;
   }
+
+  @media only screen and (max-device-width: 480px) {
+    h3 {
+      font-size: smaller;
+      text-align: left;
+      width: 70%;
+    }
+  }
 `;
 
 export const IntroContainer = styled.div`
@@ -47,14 +59,27 @@ export const IntroContainer = styled.div`
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
   }
+
+  @media only screen and (max-device-width: 480px) {
+    top: 10%;
+  }
 `;
 
 export const ProfileImg = styled.img`
   width: 15rem;
   border-radius: 1.5rem;
   box-shadow: 0.5rem 0.5rem 0.3rem rgba(43, 75, 71, 0.4);
+
+  @media only screen and (max-device-width: 480px) {
+    width: 50%;
+  }
 `;
 
 export const NavbarImg = styled.img`
   width: 100%;
+
+  /* @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  } */
 `;

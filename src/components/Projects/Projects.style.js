@@ -7,8 +7,12 @@ export const GridsContainer = styled.div`
 
   display: flex;
   flex-direction: row;
+
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
-export const FirstGrid = styled.div`
+export const Grid = styled.div`
   width: 50%;
   height: auto;
   display: grid;
@@ -19,6 +23,10 @@ export const FirstGrid = styled.div`
   border-radius: 1rem;
 
   margin: 1rem;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 0;
+  }
 
   .griditem-1 {
     background: url(${gridBC});
@@ -55,4 +63,8 @@ export const FirstGrid = styled.div`
     font-style: italic;
   }
 `;
-export const ProjectLink = styled.a``;
+export const ProjectLink = styled.a`
+  @media only screen and (max-width: 480px) {
+    font-size: small;
+  }
+`;

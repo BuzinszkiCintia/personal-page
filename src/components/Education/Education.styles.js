@@ -26,10 +26,19 @@ export const EduGrid = styled(WorkGrid)`
     background: url(${bge});
     background-size: contain;
   }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+    border-radius: 4rem;
+  }
 `;
 export const EduCircle = styled(WorkCircle)``;
 export const EduLabel = styled(WorkLabel)`
-  font-size: large;
+  font-size: larger;
+  @media only screen and (max-width: 480px) {
+    font-size: 1.5rem;
+  }
 `;
 export const EduText = styled(Text)`
   text-align: center;

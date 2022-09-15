@@ -5,7 +5,7 @@ import bb from "../../images/Budapest_bank_logo_png.png";
 
 export const MainWorkContainer = styled.div`
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   h1 {
     font-family: "Courgette", cursive;
     color: rgba(43, 75, 71, 1);
@@ -23,6 +23,11 @@ export const WorkTitleContainer = styled.div`
     width: 100%;
     margin-top: 12px;
   }
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 export const WorkContainer = styled.div`
@@ -31,6 +36,10 @@ export const WorkContainer = styled.div`
   flex-direction: row;
   justify-content: right;
   padding-bottom: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    justify-content: center;
+  }
 `;
 
 export const WorkGrid = styled.div`
@@ -66,6 +75,12 @@ export const WorkGrid = styled.div`
     background: url(${bb});
     background-size: contain;
   }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+    border-radius: 4rem;
+  }
 `;
 export const WorkCircle = styled.div`
   width: 11rem;
@@ -81,6 +96,11 @@ export const WorkCircle = styled.div`
 
   border-radius: 100%;
   background-color: white;
+
+  @media only screen and (max-width: 480px) {
+    width: 7rem;
+    height: 7rem;
+  }
 `;
 export const WorkLabel = styled.label`
   font-weight: bolder;
@@ -97,4 +117,10 @@ export const Text = styled.div`
   }
   text-align: left;
   font-style: italic;
+
+  @media only screen and (max-width: 480px) {
+    :first-child {
+      padding-bottom: 1rem;
+    }
+  }
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainInfoContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   h1 {
     font-family: "Courgette", cursive;
     color: rgba(43, 75, 71, 1);
@@ -36,6 +36,17 @@ export const InfoContainer = styled.div`
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media only screen and (max-width: 480px) {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 `;
 export const InfoHolder = styled.div`
   width: 100%;
