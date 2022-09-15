@@ -5,6 +5,7 @@ import {
   TitleContainer,
 } from "./Information.styled";
 import border from "../../images/IMG_1395.PNG";
+import { Element } from "react-scroll";
 
 const Information = () => {
   let infos = [
@@ -24,30 +25,32 @@ const Information = () => {
   ];
 
   return (
-    <MainInfoContainer>
-      <TitleContainer>
-        <h1>Information</h1>
-        <img src={border} alt="border" />
-      </TitleContainer>
-      <InfoContainer>
-        {infos?.map((info) => {
-          return (
-            <InfoHolder key={info.id}>
-              <span className="material-symbols-outlined">{info.icon}</span>
-              <label>{info.label}</label>
-            </InfoHolder>
-          );
-        })}
-        {links?.map((link) => {
-          return (
-            <InfoHolder key={link.id}>
-              <span className="material-symbols-outlined">{link.icon}</span>
-              <a href="url">{link.link}</a>
-            </InfoHolder>
-          );
-        })}
-      </InfoContainer>
-    </MainInfoContainer>
+    <Element id="Information" name="information">
+      <MainInfoContainer>
+        <TitleContainer>
+          <h1>Information</h1>
+          <img src={border} alt="border" />
+        </TitleContainer>
+        <InfoContainer>
+          {infos?.map((info) => {
+            return (
+              <InfoHolder key={info.id}>
+                <span className="material-symbols-outlined">{info.icon}</span>
+                <label>{info.label}</label>
+              </InfoHolder>
+            );
+          })}
+          {links?.map((link) => {
+            return (
+              <InfoHolder key={link.id}>
+                <span className="material-symbols-outlined">{link.icon}</span>
+                <a href="url">{link.link}</a>
+              </InfoHolder>
+            );
+          })}
+        </InfoContainer>
+      </MainInfoContainer>
+    </Element>
   );
 };
 

@@ -17,6 +17,7 @@ import nodePic from "../../images/IMG_1416.PNG";
 import gitHubPic from "../../images/IMG_1417.PNG";
 import nintexPic from "../../images/IMG_1418.PNG";
 import sharePointPic from "../../images/IMG_1419.PNG";
+import { Element } from "react-scroll";
 
 const Skills = () => {
   let itSkills = [
@@ -41,41 +42,43 @@ const Skills = () => {
   ];
 
   return (
-    <MainWorkContainer>
-      <WorkTitleContainer>
-        <h1>Skills</h1>
-        <img src={border} alt="border" />
-      </WorkTitleContainer>
-      <h1>IT skills</h1>
-      <CardContainer>
-        {itSkills?.map((itSkill) => {
-          return (
-            <Card key={itSkill.id}>
-              <img src={itSkill.src} alt={itSkill.id} />
-              <h2>{itSkill.label}</h2>
-              <h4>{itSkill.level}</h4>
-            </Card>
-          );
-        })}
-      </CardContainer>
-      <ScrollingMainContainer>
-        <h1>Personal skills</h1>
-        <ScrollingContainer>
-          <div class="scrolling-words-box">
-            <ul>
-              <li style={{ color: "#ea4335" }}>Precise work</li>
-              <li style={{ color: "#4285f4" }}>Multitasking</li>
-              <li style={{ color: "#34a853" }}>Team player attitude</li>
-              <li style={{ color: "#fbbc04" }}>
-                Quickly understand and apply new information
-              </li>
-              <li style={{ color: "#fc6b03" }}>Technical orientation</li>
-              <li style={{ color: "#ad03fc" }}>Proactivity</li>
-            </ul>
-          </div>
-        </ScrollingContainer>
-      </ScrollingMainContainer>
-    </MainWorkContainer>
+    <Element id="Skills" name="Skills">
+      <MainWorkContainer>
+        <WorkTitleContainer>
+          <h1>Skills</h1>
+          <img src={border} alt="border" />
+        </WorkTitleContainer>
+        <h1>IT skills</h1>
+        <CardContainer>
+          {itSkills?.map((itSkill) => {
+            return (
+              <Card key={itSkill.id}>
+                <img src={itSkill.src} alt={itSkill.id} />
+                <h2>{itSkill.label}</h2>
+                <h4>{itSkill.level}</h4>
+              </Card>
+            );
+          })}
+        </CardContainer>
+        <ScrollingMainContainer>
+          <h1>Personal skills</h1>
+          <ScrollingContainer>
+            <div class="scrolling-words-box">
+              <ul>
+                <li style={{ color: "#ea4335" }}>Precise work</li>
+                <li style={{ color: "#4285f4" }}>Multitasking</li>
+                <li style={{ color: "#34a853" }}>Team player attitude</li>
+                <li style={{ color: "#fbbc04" }}>
+                  Quickly understand and apply new information
+                </li>
+                <li style={{ color: "#fc6b03" }}>Technical orientation</li>
+                <li style={{ color: "#ad03fc" }}>Proactivity</li>
+              </ul>
+            </div>
+          </ScrollingContainer>
+        </ScrollingMainContainer>
+      </MainWorkContainer>
+    </Element>
   );
 };
 
