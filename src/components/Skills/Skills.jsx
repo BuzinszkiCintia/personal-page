@@ -65,14 +65,14 @@ const Skills = () => {
           <ScrollingContainer>
             <div class="scrolling-words-box">
               <ul>
-                <li style={{ color: "#ea4335" }}>Precise work</li>
-                <li style={{ color: "#4285f4" }}>Multitasking</li>
-                <li style={{ color: "#34a853" }}>Team player attitude</li>
-                <li style={{ color: "#fbbc04" }}>
+                <li style={{ color: "#1e5045" }}>Precise work</li>
+                <li style={{ color: "#1f6651" }}>Multitasking</li>
+                <li style={{ color: "#71a790" }}>Team player attitude</li>
+                <li style={{ color: "#f4db7d" }}>
                   Quickly understand and apply new information
                 </li>
-                <li style={{ color: "#fc6b03" }}>Technical orientation</li>
-                <li style={{ color: "#ad03fc" }}>Proactivity</li>
+                <li style={{ color: "#71a790" }}>Technical orientation</li>
+                <li style={{ color: "#1f6651" }}>Proactivity</li>
               </ul>
             </div>
           </ScrollingContainer>
