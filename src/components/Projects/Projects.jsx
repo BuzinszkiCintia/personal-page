@@ -23,7 +23,11 @@ const Projects = () => {
               <h3>GitHub Page</h3>
             </div>
             <div className="griditem">
-              <ProjectLink href="url">
+              <ProjectLink
+                href="https://github.com/BuzinszkiCintia"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/BuzinszkiCintia
               </ProjectLink>
             </div>
@@ -31,12 +35,20 @@ const Projects = () => {
               <h3>Codecool projects</h3>
             </div>
             <div className="griditem">
-              <ProjectLink href="url">
+              <ProjectLink
+                href="https://github.com/BuzinszkiCintia/Codecool_react-and-morty"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/BuzinszkiCintia/Codecool_react-and-morty
               </ProjectLink>
             </div>
             <div className="griditem">
-              <ProjectLink href="url">
+              <ProjectLink
+                href="https://github.com/BuzinszkiCintia/Codecool-API-Wars"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://github.com/BuzinszkiCintia/Codecool-API-Wars
               </ProjectLink>
             </div>

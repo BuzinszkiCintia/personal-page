@@ -44,7 +44,9 @@ const Information = () => {
             return (
               <InfoHolder key={link.id}>
                 <span className="material-symbols-outlined">{link.icon}</span>
-                <a href="url">{link.link}</a>
+                <a href={link.link} target="_blank" rel="noreferrer">
+                  {link.link}
+                </a>
               </InfoHolder>
             );
           })}
