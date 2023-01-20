@@ -40,7 +40,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                https://github.com/BuzinszkiCintia/Codecool_react-and-morty
+                Codecool-React-and-morty
               </ProjectLink>
             </div>
             <div className="griditem">
@@ -49,14 +49,20 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                https://github.com/BuzinszkiCintia/Codecool-API-Wars
+                Codecool-API-Wars
               </ProjectLink>
             </div>
             <div className="griditem-2">
               <h3>My projects</h3>
             </div>
             <div className="griditem">
-              <h4>Coming soon...</h4>
+              <ProjectLink
+                href="https://buzinszkicintia.github.io/pokemongo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                PokemonGo
+              </ProjectLink>
             </div>
           </Grid>
           <Grid>
