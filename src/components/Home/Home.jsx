@@ -16,7 +16,7 @@ const Home = () => {
       </Navbar>
       <NavbarImg src={navbarImg} alt="navbar-img" />
       <IntroContainer>
-        <ProfileImg src={profileImage} alt="profile-img" />
+        <ProfileImg src={profileImage} alt="profile-img" fetchpriority="high" />
         <h1>Hi, My Name is Cintia Buzinszki.</h1>
         <h2>
           | Budapest based | Junior Frontend developer | Hobby digital artist |
