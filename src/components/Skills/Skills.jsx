@@ -8,15 +8,15 @@ import {
   ScrollingMainContainer,
   ScrollingContainer,
 } from "./Skills.styled";
-import border from "../../images/IMG_1395.PNG";
-import reactPic from "../../images/IMG_1412.PNG";
-import jsPic from "../../images/IMG_1413.PNG";
-import cssPic from "../../images/IMG_1414.PNG";
-import htmlPic from "../../images/IMG_1415.PNG";
-import nodePic from "../../images/IMG_1416.PNG";
-import gitHubPic from "../../images/IMG_1417.PNG";
-import nintexPic from "../../images/IMG_1418.PNG";
-import sharePointPic from "../../images/IMG_1419.PNG";
+import border from "../../images/IMG_1395.webp";
+import reactPic from "../../images/IMG_1412.webp";
+import jsPic from "../../images/IMG_1413.webp";
+import cssPic from "../../images/IMG_1414.webp";
+import htmlPic from "../../images/IMG_1415.webp";
+import nodePic from "../../images/IMG_1416.webp";
+import gitHubPic from "../../images/IMG_1417.webp";
+import nintexPic from "../../images/IMG_1418.webp";
+import sharePointPic from "../../images/IMG_1419.webp";
 import { Element } from "react-scroll";
 
 const Skills = () => {

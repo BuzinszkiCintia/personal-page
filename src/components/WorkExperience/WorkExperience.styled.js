@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import gridBackground from "../../images/IMG_1399.PNG";
-import mkb from "../../images/MKB_Bank_logo.png";
-import bb from "../../images/Budapest_bank_logo_png.png";
+import gridBackground from "../../images/IMG_1399.webp";
+import mkb from "../../images/MKB_Bank_logo.webp";
+import bb from "../../images/Budapest_bank_logo_png.webp";
 
 export const MainWorkContainer = styled.div`
   width: 100%;

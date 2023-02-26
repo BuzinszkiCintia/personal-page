@@ -5,7 +5,7 @@ import {
   NavbarLabel,
   MainContainer,
 } from "../MiddleNavbar/MiddleNavbar.styled";
-import navbarImg from "../../images/IMG_1396.PNG";
+import navbarImg from "../../images/IMG_1396.webp";
 import { Link } from "react-scroll";
 
 const MiddleNavbar = () => {

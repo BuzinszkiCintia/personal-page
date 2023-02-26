@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import gridBC from "../../images/IMG_1395.PNG";
+import gridBC from "../../images/IMG_1395.webp";
 
 export const GridsContainer = styled.div`
   width: 100%;

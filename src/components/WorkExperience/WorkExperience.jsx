@@ -7,7 +7,7 @@ import {
   Text,
   WorkContainer,
 } from "./WorkExperience.styled";
-import border from "../../images/IMG_1395.PNG";
+import border from "../../images/IMG_1395.webp";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Education from "../Education/Education";
 import { Element } from "react-scroll";

@@ -4,7 +4,7 @@ import {
   MainInfoContainer,
   TitleContainer,
 } from "./Information.styled";
-import border from "../../images/IMG_1395.PNG";
+import border from "../../images/IMG_1395.webp";
 import { Element } from "react-scroll";
 
 const Information = () => {

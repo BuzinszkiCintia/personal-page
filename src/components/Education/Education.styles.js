@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import codecool from "../../images/Codecool_logo.png";
+import codecool from "../../images/Codecool_logo.webp";
 import bge from "../../images/bge_logo.jpg";
 
 import {

@@ -2,7 +2,7 @@ import {
   MainWorkContainer,
   WorkTitleContainer,
 } from "../WorkExperience/WorkExperience.styled";
-import border from "../../images/IMG_1395.PNG";
+import border from "../../images/IMG_1395.webp";
 import { GridsContainer, Grid, ProjectLink } from "./Projects.style";
 import { Element } from "react-scroll";
 

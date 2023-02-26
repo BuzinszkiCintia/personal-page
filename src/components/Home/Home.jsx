@@ -1,5 +1,5 @@
-import profileImage from "../../images/IMG_1398.PNG";
-import navbarImg from "../../images/IMG_1395.PNG";
+import profileImage from "../../images/IMG_1398.webp";
+import navbarImg from "../../images/IMG_1395.webp";
 import {
   NavbarImg,
   ProfileImg,
