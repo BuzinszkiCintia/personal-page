@@ -61,7 +61,7 @@ export const InfoHolder = styled.div`
 
   span {
     font-size: 3rem;
-    color: white;
+    color: #1f4f44;
     margin-left: 20px;
   }
 
