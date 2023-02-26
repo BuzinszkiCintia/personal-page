@@ -29,17 +29,20 @@ const WorkExperience = () => {
                 <WorkLabel>IT operator | MKB Bank, Budapest</WorkLabel>
                 <Text>
                   <ul>
-                    Implementing, developing, managing, testing, and
-                    troubleshooting Nintex workflows that support procurement
-                    processes
-                  </ul>
-                  <ul>
-                    Providing daily support for users on the Finance/Procurement
-                    SharePoint site
-                  </ul>
-                  <ul>
-                    Carrying out internal audits related to procurement
-                    workflows
+                    <li>
+                      Implementing, developing, managing, testing, and
+                      troubleshooting Nintex workflows that support procurement
+                      processes
+                    </li>
+                    <li>
+                      Providing daily support for users on the
+                      Finance/Procurement SharePoint site
+                    </li>
+                    <li>
+                      Carrying out internal audits related to procurement
+                      workflows
+                    </li>
+                    <li>Managing new workflow developing from scratch</li>
                   </ul>
                 </Text>
               </div>
@@ -51,13 +54,15 @@ const WorkExperience = () => {
                 </WorkLabel>
                 <Text>
                   <ul>
-                    Implementing, developing, managing, testing, and
-                    troubleshooting Nintex workflows that support procurement
-                    processes
-                  </ul>
-                  <ul>
-                    Providing daily support for users on the Finance/Procurement
-                    SharePoint site
+                    <li>
+                      Implementing, developing, managing, testing, and
+                      troubleshooting Nintex workflows that support procurement
+                      processes
+                    </li>
+                    <li>
+                      Providing daily support for users on the
+                      Finance/Procurement SharePoint site
+                    </li>
                   </ul>
                 </Text>
               </div>

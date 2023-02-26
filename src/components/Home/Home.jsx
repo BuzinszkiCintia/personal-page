@@ -18,9 +18,9 @@ const Home = () => {
       <IntroContainer>
         <ProfileImg src={profileImage} alt="profile-img" />
         <h1>Hi, My Name is Cintia Buzinszki.</h1>
-        <h4>
+        <h2>
           | Budapest based | Junior Frontend developer | Hobby digital artist |
-        </h4>
+        </h2>
       </IntroContainer>
     </MainContainer>
   );

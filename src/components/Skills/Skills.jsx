@@ -55,7 +55,7 @@ const Skills = () => {
               <Card key={itSkill.id}>
                 <img src={itSkill.src} alt={itSkill.id} />
                 <h2>{itSkill.label}</h2>
-                <h4>{itSkill.level}</h4>
+                <h3>{itSkill.level}</h3>
               </Card>
             );
           })}
@@ -65,14 +65,14 @@ const Skills = () => {
           <ScrollingContainer>
             <div class="scrolling-words-box">
               <ul>
-                <li style={{ color: "#1e5045" }}>Precise work</li>
-                <li style={{ color: "#1f6651" }}>Multitasking</li>
-                <li style={{ color: "#71a790" }}>Team player attitude</li>
-                <li style={{ color: "#f4db7d" }}>
+                <li style={{ color: "#0c0c0c" }}>Precise work</li>
+                <li style={{ color: "#123e31" }}>Multitasking</li>
+                <li style={{ color: "#1e5045" }}>Team player attitude</li>
+                <li style={{ color: "#1f6651" }}>
                   Quickly understand and apply new information
                 </li>
-                <li style={{ color: "#71a790" }}>Technical orientation</li>
-                <li style={{ color: "#1f6651" }}>Proactivity</li>
+                <li style={{ color: "#1e5045" }}>Technical orientation</li>
+                <li style={{ color: "#123e31" }}>Proactivity</li>
               </ul>
             </div>
           </ScrollingContainer>
