@@ -26,7 +26,7 @@ export const Card = styled.div`
   }
 
   h2,
-  h4 {
+  h3 {
     font-family: "Courgette", cursive;
     color: rgba(43, 75, 71, 1);
     margin: 0.5rem;

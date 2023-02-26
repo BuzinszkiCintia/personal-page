@@ -55,9 +55,10 @@ export const IntroContainer = styled.div`
   h1 {
     font-family: "Courgette", cursive;
   }
-  h4 {
+  h2 {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
+    font-size: large;
   }
 
   @media only screen and (max-device-width: 480px) {
