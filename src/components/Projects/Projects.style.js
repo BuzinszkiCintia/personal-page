@@ -3,7 +3,7 @@ import gridBC from "../../images/IMG_1395.webp";
 
 export const GridsContainer = styled.div`
   width: 100%;
-  min-height: 70vh;
+  min-height: 80vh;
 
   display: flex;
   flex-direction: row;
@@ -14,15 +14,15 @@ export const GridsContainer = styled.div`
 `;
 export const Grid = styled.div`
   width: 50%;
-  height: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.5fr 0.7fr 0.5fr 0.7fr 0.7fr 0.5fr 0.7fr;
+  grid-template-rows: 1fr 0.5fr 0.7fr 0.5fr 0.7fr 0.5fr 0.5fr 0.5fr;
 
   border: solid 1px rgba(43, 75, 71, 0.3);
   border-radius: 1rem;
 
   margin: 1rem;
+
   @media only screen and (max-width: 480px) {
     width: 100%;
     margin: 0;
@@ -44,6 +44,7 @@ export const Grid = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
 
   h2 {
