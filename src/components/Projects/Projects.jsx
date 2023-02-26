@@ -64,6 +64,15 @@ const Projects = () => {
                 PokemonGo
               </ProjectLink>
             </div>
+            <div className="griditem">
+              <ProjectLink
+                href="https://buzinszkicintia.github.io/todo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Angular To do app
+              </ProjectLink>
+            </div>
           </Grid>
           <Grid>
             <div className="griditem-1">
