@@ -1,29 +1,31 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.964fdded.css",
-    "main.js": "/personal-page/static/js/main.0626c72d.js",
+    "main.js": "/personal-page/static/js/main.631e0125.js",
     "static/js/787.c0841a6b.chunk.js": "/personal-page/static/js/787.c0841a6b.chunk.js",
-    "static/media/IMG_1399.PNG": "/personal-page/static/media/IMG_1399.5cb84459d10a18956aba.PNG",
-    "static/media/IMG_1398.PNG": "/personal-page/static/media/IMG_1398.d1952b1ae5ac74707d28.PNG",
-    "static/media/IMG_1395.PNG": "/personal-page/static/media/IMG_1395.1a2fc8f8ea82459b260f.PNG",
-    "static/media/IMG_1396.PNG": "/personal-page/static/media/IMG_1396.cfd6fb6d4a6618686378.PNG",
-    "static/media/IMG_1412.PNG": "/personal-page/static/media/IMG_1412.9a26300da8ebdb07cad0.PNG",
-    "static/media/IMG_1419.PNG": "/personal-page/static/media/IMG_1419.5b6ffbfbea25f10fb1aa.PNG",
-    "static/media/IMG_1414.PNG": "/personal-page/static/media/IMG_1414.c8e2e58ff146596bd82d.PNG",
-    "static/media/IMG_1415.PNG": "/personal-page/static/media/IMG_1415.bc722593f1022f493cc8.PNG",
-    "static/media/IMG_1413.PNG": "/personal-page/static/media/IMG_1413.cda43bd0c76b48fe44db.PNG",
-    "static/media/IMG_1417.PNG": "/personal-page/static/media/IMG_1417.c033a79b4c8df6d1715e.PNG",
-    "static/media/IMG_1416.PNG": "/personal-page/static/media/IMG_1416.b4e30ab9448c0c9a3e85.PNG",
-    "static/media/IMG_1418.PNG": "/personal-page/static/media/IMG_1418.f867975a95377942ef08.PNG",
-    "static/media/Budapest_bank_logo_png.png": "/personal-page/static/media/Budapest_bank_logo_png.efc5658307c15ecec1fe.png",
+    "static/media/IMG_1395.webp": "/personal-page/static/media/IMG_1395.fad71c91d259922d2bdf.webp",
+    "static/media/IMG_1419.webp": "/personal-page/static/media/IMG_1419.29c446a094f7246c594e.webp",
+    "static/media/IMG_1398.webp": "/personal-page/static/media/IMG_1398.5891ca7a55dc3ed7d4e5.webp",
+    "static/media/IMG_1399.webp": "/personal-page/static/media/IMG_1399.ff4386bba031842821d6.webp",
+    "static/media/IMG_1412.webp": "/personal-page/static/media/IMG_1412.1ed0d67b065d2fdba2d3.webp",
+    "static/media/IMG_1396.webp": "/personal-page/static/media/IMG_1396.9be99483d818f3d308f1.webp",
+    "static/media/IMG_1416.webp": "/personal-page/static/media/IMG_1416.36221d2b70c485314dcc.webp",
+    "static/media/IMG_1415.webp": "/personal-page/static/media/IMG_1415.6df5790d128de292fd64.webp",
+    "static/media/IMG_1414.webp": "/personal-page/static/media/IMG_1414.756c8121fed3713cb76a.webp",
+    "static/media/IMG_1413.webp": "/personal-page/static/media/IMG_1413.b0377c5fe6f1183ab3be.webp",
+    "static/media/IMG_1417.webp": "/personal-page/static/media/IMG_1417.163252632c473a673d6b.webp",
+    "static/media/IMG_1418.webp": "/personal-page/static/media/IMG_1418.980c69df0229be3a7904.webp",
     "static/media/bge_logo.jpg": "/personal-page/static/media/bge_logo.a6c9c5a8bda4f6f923a0.jpg",
+    "static/media/Budapest_bank_logo_png.webp": "/personal-page/static/media/Budapest_bank_logo_png.d74a78172603074c1a63.webp",
+    "static/media/MKB_Bank_logo.webp": "/personal-page/static/media/MKB_Bank_logo.ee52e5003ac888471e8b.webp",
+    "static/media/Codecool_logo.webp": "/personal-page/static/media/Codecool_logo.547b9dcb00c646b5483c.webp",
     "index.html": "/personal-page/index.html",
     "main.964fdded.css.map": "/personal-page/static/css/main.964fdded.css.map",
-    "main.0626c72d.js.map": "/personal-page/static/js/main.0626c72d.js.map",
+    "main.631e0125.js.map": "/personal-page/static/js/main.631e0125.js.map",
     "787.c0841a6b.chunk.js.map": "/personal-page/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.0626c72d.js"
+    "static/js/main.631e0125.js"
   ]
 }
