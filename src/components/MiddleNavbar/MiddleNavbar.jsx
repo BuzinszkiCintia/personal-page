@@ -25,6 +25,7 @@ const MiddleNavbar = () => {
             <PictureContainer>
               <Link
                 to={item}
+                href={item}
                 spy={true}
                 smooth={true}
                 duration={500}
