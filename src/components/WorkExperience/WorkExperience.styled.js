@@ -117,6 +117,13 @@ export const Text = styled.div`
   }
   text-align: left;
   font-style: italic;
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 0.6rem;
+    }
+  }
 
   @media only screen and (max-width: 480px) {
     :first-child {
