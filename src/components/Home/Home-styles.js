@@ -68,6 +68,7 @@ export const IntroContainer = styled.div`
 
 export const ProfileImg = styled.img`
   width: 15rem;
+  height: auto;
   border-radius: 1.5rem;
   box-shadow: 0.5rem 0.5rem 0.3rem rgba(43, 75, 71, 0.4);
 
@@ -78,6 +79,7 @@ export const ProfileImg = styled.img`
 
 export const NavbarImg = styled.img`
   width: 100%;
+  height: auto;
 
   /* @media only screen and (max-width: 480px) {
     width: 100%;
